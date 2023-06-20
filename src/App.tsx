@@ -1,4 +1,5 @@
 import './App.css'
+import Container from './components/Container'
 import Heading from './components/Heading'
 import HeadingWithChildren from './components/HeadingWithChildren'
 
@@ -10,6 +11,9 @@ function App() {
       <HeadingWithChildren>
         <p>Heading with children</p>
       </HeadingWithChildren>
+      <Container>
+        <p>container</p>
+      </Container>
     </main>
   )
 }

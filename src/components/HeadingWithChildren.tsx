@@ -1,4 +1,5 @@
-const HeadingWithChildren = ({children}: {children: React.ReactNode}) => {
+// handle children 
+const HeadingWithChildren = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       {children}

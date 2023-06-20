@@ -1,5 +1,5 @@
 // handle props with destructuring
-const Heading = ({title}: {title:string}) => {
+const Heading = ({ title }: { title:string }) => {
   return (
     <header>
       <p>{title}</p>
