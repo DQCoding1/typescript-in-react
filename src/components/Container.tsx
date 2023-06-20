@@ -1,4 +1,3 @@
-// handle default props
 const defaultContainerprops = {
   userName: <p>user 1</p>,
 };

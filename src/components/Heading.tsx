@@ -1,4 +1,4 @@
-// handle props with destructuring
+// destructuring 
 const Heading = ({ title }: { title:string }) => {
   return (
     <header>
@@ -8,7 +8,7 @@ const Heading = ({ title }: { title:string }) => {
 }
 
 
-// handle props without destructuring
+// without destructuring
 // const Heading = (props: {title: string}) => {
 //   return (
 //     <header>

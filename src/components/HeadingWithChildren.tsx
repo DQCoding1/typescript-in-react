@@ -1,4 +1,3 @@
-// handle children 
 const HeadingWithChildren = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
